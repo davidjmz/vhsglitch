@@ -1,0 +1,114 @@
+body {
+	/* background-color: #060709 !important; */
+	color: #FF0036 !important;
+	background: url("../img/fondo.png");
+}
+
+.red {
+	background-color: red !important;
+}
+
+.m0auto {
+	margin: 0 auto !important;
+}
+
+.col-xs-6 {
+	margin-bottom: 30px !important;
+}
+
+a, a:hover, a:visited, a:active {
+	color: #38ACFF !important;
+}
+
+.col-xs-6 img {
+	margin-bottom: 10px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+}
+
+.col-xs-6 img:hover {
+	opacity: 1;
+	transition-duration: 0.2s;
+}
+
+i.fa {
+	color: #FF0036 !important;
+}
+
+.glitch {
+	-webkit-animation: glitch 0.3s linear;
+	animation: glitch 0.3s linear;
+}
+
+@keyframes glitch {
+	10% {
+		opacity: 0.5;
+
+	}
+
+	20% {
+		opacity: 0.6;
+		-webkit-filter: contrast(3);
+		filter: contrast(3);
+	}
+
+	25% {
+		opacity: 0.9;
+	}
+
+	30% {
+		opacity: 0.7;
+		-webkit-filter: invert(.8);
+		filter: invert(.8);
+	}
+
+	40% {
+		opacity: 0.4;
+		transform: skew(-5deg) ;
+		-webkit-transform: skew(-5deg) ;
+		-moz-transform: skew(-5deg) ;
+		-o-transform: skew(-5deg) ;
+		-ms-transform: skew(-5deg) ;
+	}
+
+	50% {
+		opacity: 0.5;
+		-webkit-filter: saturate(4);
+		filter: saturate(4);
+	}
+
+	60% {
+		opacity: 0.7;
+		-webkit-filter: saturate(4);
+		filter: saturate(4);
+
+
+	}
+
+	70% {
+		opacity: 0.3;
+
+	}
+
+	80% {
+		opacity: 0.6;
+		-webkit-filter: invert(.8);
+		filter: invert(.8);
+	}
+
+	90% {
+		opacity: 0.4;
+		-webkit-filter: invert(.1);
+		filter: invert(.1);
+		transform: skew(5deg) ;
+		-webkit-transform: skew(5deg) ;
+		-moz-transform: skew(5deg) ;
+		-o-transform: skew(5deg) ;
+		-ms-transform: skew(5deg) ;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}
