@@ -36,24 +36,19 @@ i.fa {
 }
 
 .glitch {
-	-webkit-animation: glitch 0.3s linear;
-	animation: glitch 0.3s linear;
+	-webkit-animation: glitch 0.2s ease;
+	animation: glitch 0.2s ease;
 }
 
 @keyframes glitch {
 	10% {
 		opacity: 0.5;
-
 	}
 
 	20% {
 		opacity: 0.6;
 		-webkit-filter: contrast(3);
 		filter: contrast(3);
-	}
-
-	25% {
-		opacity: 0.9;
 	}
 
 	30% {
@@ -64,30 +59,21 @@ i.fa {
 
 	40% {
 		opacity: 0.4;
-		transform: skew(-5deg) ;
-		-webkit-transform: skew(-5deg) ;
-		-moz-transform: skew(-5deg) ;
-		-o-transform: skew(-5deg) ;
-		-ms-transform: skew(-5deg) ;
+		transform: skew(-1deg, 1deg) ;
+		-webkit-transform: skew(-1deg, 1deg) ;
+		-moz-transform: skew(-1deg, 1deg) ;
+		-o-transform: skew(-1deg, 1deg) ;
+		-ms-transform: skew(-1deg, 1deg) ;
 	}
 
 	50% {
 		opacity: 0.5;
 		-webkit-filter: saturate(4);
 		filter: saturate(4);
-	}
-
-	60% {
-		opacity: 0.7;
-		-webkit-filter: saturate(4);
-		filter: saturate(4);
-
-
-	}
-
-	70% {
-		opacity: 0.3;
-
+		-webkit-transform: skew(-3deg, 3deg) ;
+		-moz-transform: skew(-3deg, 3deg) ;
+		-o-transform: skew(-3deg, 3deg) ;
+		-ms-transform: skew(-3deg, 3deg) ;
 	}
 
 	80% {
@@ -100,15 +86,11 @@ i.fa {
 		opacity: 0.4;
 		-webkit-filter: invert(.1);
 		filter: invert(.1);
-		transform: skew(5deg) ;
-		-webkit-transform: skew(5deg) ;
-		-moz-transform: skew(5deg) ;
-		-o-transform: skew(5deg) ;
-		-ms-transform: skew(5deg) ;
-	}
-
-	100% {
-		opacity: 1;
+		transform: skew(1deg, 1deg) ;
+		-webkit-transform: skew(1deg, 1deg) ;
+		-moz-transform: skew(1deg, 1deg) ;
+		-o-transform: skew(1deg, 1deg) ;
+		-ms-transform: skew(1deg, 1deg) ;
 	}
 
 }
