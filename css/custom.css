@@ -2,6 +2,7 @@ body {
 	/* background-color: #060709 !important; */
 	color: #FF0036 !important;
 	background: url("../img/fondo.png");
+	background-color: black !important;
 }
 
 .red {
